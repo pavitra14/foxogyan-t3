@@ -2,6 +2,8 @@
 
 This repo contains the code for the Clanits front page which was given to us as a task 3 for the mozillian of the year title at FoxoGyan
 
+[Checkout this frontpage here](http://prod.pbehre.in/)
+
 To run this code locally, simply open the index.html
 
 Or this code also works with reload so that you can work on the code as well as see it live, make sure you have reload installed globally or you can install it using
