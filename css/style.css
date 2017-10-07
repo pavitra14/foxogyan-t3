@@ -3,6 +3,12 @@
 **Date Created : 6th October 2017
 **Author : Pavitra Behre(me@pbehre.in)
 */
+.navbar, .modal {
+    color:#fff;
+    position:absolute;
+    z-index:15; 
+    background: rgba(0,0,0,0.6);
+  }
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -25,7 +31,7 @@
     color:#fff;
     position:absolute;
     z-index:12;
-    top:10%;
+    top:27%;
     left: 10%;
     right: 10%;
     width: 80%;

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-  **File name : index.js
+  **File name : index.html
   **Date Created : 6th October 2017
   **Author : Pavitra Behre(me@pbehre.in)
 -->
@@ -22,20 +22,23 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#" data-target="#backgroundCarousel" data-slide-to="0"><img src="" alt="CLANITS : A Foxogyan Initiative"></a>
+        <a class="navbar-brand" href="#" data-target="#backgroundCarousel" data-slide-to="0"><img src="assets/clanits2.png" alt="CLANITS" class="nav-logo" width="99"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active slide1">
-              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="0" onclick="slide1();">Home</a>
+              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="0" onclick="slide1();"> <i class="fa fa-home" aria-hidden="true"></i> Home</a>
             </li>
             <li class="nav-item slide2">
-              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="1" onclick="slide2();">About</a>
+              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="1" onclick="slide2();"><i class="fa fa-info" aria-hidden="true"></i> About</a>
             </li>
             <li class="nav-item slide3">
-              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="2" onclick="slide3();">Contact</a>
+              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="2" onclick="slide3();"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" data-toggle="modal" data-target="#myModal" class="nav-link"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
             </li>
           </ul>
         </div>
@@ -46,27 +49,30 @@
       
       <div id="backgroundCarousel" class="carousel slide" data-interval="false">
         <div class="carousel-inner" role="listbox">
-          <!-- Slide One -->
-          <div class="carousel-item active" style="background-image: url('assets/pexels-photo-577585.jpeg')">
+          <!-- Page One -->
+          <div class="carousel-item active" style="background-image: url('assets/pexels-photo-577585-min.jpeg')">
             <div class="carousel-caption overlay hidden1">
-              <h3>First Slide</h3>
-              <p>This is a description for the first slide.</p>
+              <h3>Welcome to ClanITS</h3>
+              <p>A Foxogyan Initiate</p>
+              <p>{{CONTENT AREA 1}}</p>
+
             </div>
           </div>
-          <!-- Slide Two  -->
-          <div class="carousel-item" style="background-image: url('assets/pexels-photo-577585.jpeg')">
-             
+          <!-- page Two  -->
+          <div class="carousel-item" style="background-image: url('assets/people-coffee-notes-tea-min.jpg')">
             <div class="carousel-caption overlay hidden2">
               <h3>About</h3>
               <p>{{ABOUT CLANITS AND FOXOGYAN Information goes here.}}</p>
+              <p>{{CONTENT AREA 2}}</p>
             </div>
 
           </div>
-          <!-- Slide Three -->
-          <div class="carousel-item" style="background-image: url('assets/pexels-photo-577585.jpeg')">
+          <!-- page Three -->
+          <div class="carousel-item" style="background-image: url('assets/contact-us-2418235_1920.jpg')">
             <div class="carousel-caption overlay hidden3">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
+              <h3>Wanna get in touch?</h3>
+              <p>Use the details and the form below to contact us :)</p>
+              <p>{{CONTENT AREA 3}}</p>
             </div>
           </div>
         </div>
