@@ -3,11 +3,12 @@
 **Date Created : 6th October 2017
 **Author : Pavitra Behre(me@pbehre.in)
 */
-.navbar, .modal {
+.navbar {
     color:#fff;
     position:absolute;
     z-index:15; 
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.85);
+    padding-bottom: 1px;
   }
 .carousel-item {
     height: 100vh;
@@ -23,6 +24,8 @@
     position: absolute;
     padding-top: 20px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: #fff;
     text-align: center;
     background: rgba(0,0,0,0.4);
@@ -31,7 +34,7 @@
     color:#fff;
     position:absolute;
     z-index:12;
-    top:27%;
+    top:25%;
     left: 10%;
     right: 10%;
     width: 80%;
@@ -39,5 +42,25 @@
     text-align: center;
   }
   .hidden1, .hidden2, .hidden3 {
-      display: none;
+      /*display: none;*/
+  }
+  img.clanits {
+      width: 40%;
+  }
+img.foxogyan {
+    width: 65%;
+}
+input[type="text"].form-control, textarea.form-control {
+    color: rgb(255, 255, 255);
+    background-color:transparent !important;
+    border-bottom: 1px solid black;
+    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px black;
+  }
+  form button.form-control {
+      color: rgb(255, 255, 255);
+      background-color: rgba(226, 74, 213, 0.43) !important;
+  }
+.form-group {
+    padding-left: 20%;
+    padding-right: 20%;
   }

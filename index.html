@@ -9,13 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>ClanITS - by Foxogyan</title>
+    <title>CLANITS - by Foxogyan</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Foxogyan custom landing page css -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- Adding favicons and browser icons -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
     
@@ -29,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active slide1">
-              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="0" onclick="slide1();"> <i class="fa fa-home" aria-hidden="true"></i> Home</a>
+              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="0" onclick="slide1();" > <i class="fa fa-home" aria-hidden="true"></i> Home</a>
             </li>
             <li class="nav-item slide2">
               <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="1" onclick="slide2();"><i class="fa fa-info" aria-hidden="true"></i> About</a>
@@ -52,17 +55,21 @@
           <!-- Page One -->
           <div class="carousel-item active" style="background-image: url('assets/pexels-photo-577585-min.jpeg')">
             <div class="carousel-caption overlay hidden1">
-              <h3>Welcome to ClanITS</h3>
-              <p>A Foxogyan Initiate</p>
-              <p>{{CONTENT AREA 1}}</p>
+              <h3><img src="assets/clanits2.png" alt="CLANITS: A FoxoGyan Initiative" class="clanits"></h3>
+              <p>A Foxogyan Initiative</p> <br>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                     <br> It is a web based/android application for  college students <br> which enables them to quickly access  tutorials, class notes, <br> faculty reach, information of events and activities in college, <br> communication among students as well as faculty. <br> Individual profile management and online resume generator.”
+                </p>
+              </blockquote>
 
             </div>
           </div>
           <!-- page Two  -->
           <div class="carousel-item" style="background-image: url('assets/people-coffee-notes-tea-min.jpg')">
             <div class="carousel-caption overlay hidden2">
-              <h3>About</h3>
-              <p>{{ABOUT CLANITS AND FOXOGYAN Information goes here.}}</p>
+              <h3>About CLANITS</h3>
+              <p><b>Founded by</b> <img src="assets/foxogyan.png" alt="Foxogyan" class="foxogyan"></p>
               <p>{{CONTENT AREA 2}}</p>
             </div>
 
@@ -72,7 +79,14 @@
             <div class="carousel-caption overlay hidden3">
               <h3>Wanna get in touch?</h3>
               <p>Use the details and the form below to contact us :)</p>
-              <p>{{CONTENT AREA 3}}</p>
+              <div class="form-group">
+                <form action="">
+                  <input type="text" name="name" class="form-control" placeholder="Name......"> <br>
+                  <input type="text" name="email" class="form-control" placeholder="Email......"> <br> <br>
+                  <textarea name="msg" id="" cols="30" rows="10" class="form-control" placeholder="Your message......"></textarea> <br><br>
+                  <button type="submit" class="form-control btn btn-default">Ping us!</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>

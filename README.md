@@ -18,7 +18,7 @@ and a local server will be hosted at ::8080 with automatic live reloading, work 
 
 Frameworks used:
 
-*   Bootstrap 4
-*   jQuery
-*   Popper.js
-*   Font Awesome
+*   Bootstrap 4 (For CSS styling)
+*   jQuery (For Fade-in and such effects and single page mechanism)
+*   Popper.js (Bootstrap 4 requires popper.js to work, apparently it is required in drop down boxes and Nav-bars)
+*   Font Awesome (For Cool mini icons)
