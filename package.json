@@ -1,0 +1,17 @@
+{
+  "name": "foxogyan",
+  "version": "1.0.0",
+  "description": "foxogyan CLANITS front page task #3",
+  "main": "index.html",
+  "scripts": {
+    "serv": "reload -b"
+  },
+  "author": "Pavitra",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ClanITS - by Foxogyan</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Foxogyan custom landing page css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#" data-target="#backgroundCarousel" data-slide-to="0"><img src="" alt="CLANITS : A Foxogyan Initiative"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active slide1">
+              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="0" onclick="slide1();">Home</a>
+            </li>
+            <li class="nav-item slide2">
+              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="1" onclick="slide2();">About</a>
+            </li>
+            <li class="nav-item slide3">
+              <a class="nav-link" href="#" data-target="#backgroundCarousel" data-slide-to="2" onclick="slide3();">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      
+      <div id="backgroundCarousel" class="carousel slide" data-interval="false">
+        <ol class="carousel-indicators">
+          <li data-target="#backgroundCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#backgroundCarousel" data-slide-to="1"></li>
+          <li data-target="#backgroundCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One -->
+          <div class="carousel-item active" style="background-image: url('assets/pexels-photo-577585.jpeg')">
+            <div class="carousel-caption overlay">
+              <h3>First Slide</h3>
+              <p>This is a description for the first slide.</p>
+            </div>
+          </div>
+          <!-- Slide Two  -->
+          <div class="carousel-item" style="background-image: url('assets/pexels-photo-577585.jpeg')">
+             
+            <div class="carousel-caption overlay">
+              <h3>About</h3>
+              <p>{{ABOUT CLANITS AND FOXOGYAN Information goes here.}}</p>
+            </div>
+
+          </div>
+          <!-- Slide Three -->
+          <div class="carousel-item" style="background-image: url('assets/pexels-photo-577585.jpeg')">
+            <div class="carousel-caption overlay">
+              <h3>Third Slide</h3>
+              <p>This is a description for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </header>
+
+
+  
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="node_modules/popper.js/dist/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Custom Javascript -->
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
