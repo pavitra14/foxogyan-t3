@@ -25,8 +25,13 @@
     color:#fff;
     position:absolute;
     z-index:12;
-    top:30%;
-    left:0;
-    width:100%;
-    text-align:center;
+    top:10%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 85%;
+    text-align: center;
+  }
+  .hidden1, .hidden2, .hidden3 {
+      display: none;
   }

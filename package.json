@@ -4,7 +4,7 @@
   "description": "foxogyan CLANITS front page task #3",
   "main": "index.html",
   "scripts": {
-    "serv": "reload -b"
+    "test": "reload -b"
   },
   "author": "Pavitra",
   "license": "MIT",
